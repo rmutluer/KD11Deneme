@@ -9,7 +9,8 @@ namespace OrnekProjeKD11
             Console.WriteLine("Merhaba GitHub!");
             int sayi1 = Convert.ToInt32(Console.ReadLine());
             int sayi2= Convert.ToInt32(Console.ReadLine());
-            int toplam = ToplamaYap(sayi1, sayi2);
+            int toplam = sayi1+ sayi2;
+            Console.WriteLine("Gönderilen 2 sayının toplamı: " +toplam);
 
 
             string isim = "Bilge Adam";
@@ -17,10 +18,7 @@ namespace OrnekProjeKD11
             Console.ReadLine();
         }
 
-        private static int ToplamaYap(int sayi1, int sayi2)
-        {
-            return sayi1 + sayi2;
-        }
+       
 
         private static void EkranaYazdir(string isim)
         {
