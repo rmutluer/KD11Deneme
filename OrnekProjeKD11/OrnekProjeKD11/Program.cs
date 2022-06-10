@@ -13,7 +13,7 @@ namespace OrnekProjeKD11
             Console.WriteLine("Gönderilen 2 sayının toplamı: " +toplam);
 
 
-            string isim = "Bilge Adam";
+            string isim = "Bilge Adam Akademi";
             EkranaYazdir(isim);
             Console.ReadLine();
         }
