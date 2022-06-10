@@ -14,6 +14,7 @@ namespace OrnekProjeKD11
 
 
             string isim = "Bilge Adam";
+            string isim2 = "Boost Yıldız Yazılımcı";
             EkranaYazdir(isim);
             Console.ReadLine();
         }
